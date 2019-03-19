@@ -1,0 +1,56 @@
+body {
+    font-family: 'PT Sans', Arial, sans-serif;
+}
+
+.main-field {
+    width: 640px;
+    height: 824px;
+    background-color: #000009;
+    border: 2px solid #C2C2BD;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-data {
+    width: 640px;
+    height: 206px;
+    margin-left: 65px;
+    font-size: 52px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: #000009;
+    color: #F44056;
+}
+
+.field-item {
+    width: 30px;
+    height: 67px;
+    color: #FDFDFD;
+    font-size: 52px;
+    margin: 18px 65px 18px 65px;
+}
+
+.field-item--minus {
+    width: 19px;
+    height: 67px;
+    color: #FDFDFD;
+    font-size: 52px;
+    margin: 18px 76px 18px 65px;
+}
+
+.field-item--all-clear {
+    width: 60px;
+    height: 67px;
+    color: #FDFDFD;
+    font-size: 52px;
+    margin: 18px 50px 18px 50px;
+}
+
+.field-item--equal {
+    width: 30px;
+    height: 67px;
+    color: #FDFDFD;
+    font-size: 52px;
+    margin: 70px 306px 70px 306px;
+}
