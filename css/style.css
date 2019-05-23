@@ -4,7 +4,7 @@ body {
 
 .main-field {
     width: 640px;
-    height: 824px;
+    height: 624px;
     background-color: #000009;
     border: 2px solid #C2C2BD;
     display: flex;
@@ -13,7 +13,7 @@ body {
 
 .get-data {
     width: 640px;
-    height: 206px;
+    height: 106px;
     margin-left: 65px;
     font-size: 52px;
     padding: 0;
@@ -52,5 +52,5 @@ body {
     height: 67px;
     color: #FDFDFD;
     font-size: 52px;
-    margin: 70px 306px 70px 306px;
+    margin: 0 306px 0 306px;
 }
