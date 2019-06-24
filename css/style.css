@@ -5,6 +5,7 @@ body {
 .main-field {
     width: 640px;
     height: 624px;
+    margin: auto;
     background-color: #000009;
     border: 2px solid #C2C2BD;
     display: flex;
