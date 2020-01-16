@@ -37,11 +37,9 @@ const getElement = element => {
                 break;
             case 'AC':
                 return data.value = '';
-                break;
             case '=':
                 secondData = +currentData.slice(0, -1);
                 return data.value = getResult(operator);
-                break;
         }
     })
 };
