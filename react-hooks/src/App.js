@@ -9,9 +9,9 @@ const App = () => {
     <div>
       <h4>Calculator React-Hooks</h4>
       <Input />
-      <CalcItem />
-      <CalcItem />
-      <CalcItem />
+      <CalcItem name={1}/>
+      <CalcItem name={2}/>
+      <CalcItem name={3}/>
     </div>
   )
 };

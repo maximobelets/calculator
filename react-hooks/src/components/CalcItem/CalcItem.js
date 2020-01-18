@@ -1,9 +1,9 @@
 import React from 'react';
 import './CalcItem.css';
 
-const CalcItem = () => {
+const CalcItem = (props) => {
     return(
-        <span>1</span>
+        <button>{props.name}</button>
     )
 };
 
