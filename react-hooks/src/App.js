@@ -1,39 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
-import Input from './components/Input/Input';
-import CalcItem from './components/CalcItem/CalcItem';
-
 const App = () => {
+
+  const [value, setValue] = useState(0);
+
   return(
     <div>
-      <h4>Calculator React-Hooks</h4>
-      <Input />
       <div>
-        <CalcItem name={7}/>
-        <CalcItem name={8}/>
-        <CalcItem name={9}/>
-        <CalcItem name={'+'}/>
+        <h4>Calculator React-Hooks</h4>
+        <input value={value}/>
       </div>
       <div>
-        <CalcItem name={4}/>
-        <CalcItem name={5}/>
-        <CalcItem name={6}/>
-        <CalcItem name={'-'}/>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>+</button>
       </div>
       <div>
-        <CalcItem name={1}/>
-        <CalcItem name={2}/>
-        <CalcItem name={3}/>
-        <CalcItem name={'%'}/>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
       </div>
       <div>
-        <CalcItem name={0}/>
-        <CalcItem name={'.'}/>
-        <CalcItem name={'AC'}/>
-        <CalcItem name={'X'}/>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>%</button>
       </div>
-      <CalcItem name={'='}/>
+      <div>
+        <button>0</button>
+        <button>.</button>
+        <button>AC</button>
+        <button>X</button>
+      </div>
+        <button>=</button>
     </div>
   )
 };
