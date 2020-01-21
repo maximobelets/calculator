@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 
 const App = () => {
-
-  const [value, setValue] = useState(0);
-
   return(
     <div>
       <div>
         <h4>Calculator React-Hooks</h4>
-        <input value={value}/>
+        <input/>
       </div>
       <div>
         <button>7</button>
